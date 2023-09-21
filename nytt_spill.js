@@ -8,13 +8,13 @@ document.getElementById("gjetteknapp").addEventListener("click", gjettespill);
                 let gjettet_tall = document.getElementById("gjettefelt").value;
  
            	    if (gjettet_tall == valgt_tall) {
-                 alert("Du gjettet " + gjettet_tall + " , det var riktig ");
-           	        }
+                	 alert("Du gjettet " + gjettet_tall + " , det var riktig ");
+           	       		 }
 
            	    else if (gjettet_tall > valgt_tall) {
-             	    alert("Du gjettet " + gjettet_tall + ", det er for høyt");
-           	        }
+             	   	 alert("Du gjettet " + gjettet_tall + ", det er for høyt");
+           	       	 	}
            	    else {
-              	    alert("Du gjettet " + gjettet_tall + ", det er for lavt")
-          	        }
+              	   	 alert("Du gjettet " + gjettet_tall + ", det er for lavt")
+          	       		 }
         	};
